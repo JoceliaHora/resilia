@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100;400;900&display=swap" rel="stylesheet">
+    <title>.:Formulário Resilia:.</title>
+</head>
+
+<body>
+    <div class="menu_principal">
+    <div class="menu_2">
+        <img class="logo" src="./resilia_logo.png" alt="" width="320" height="205">
+
+        <h1>Formulário de Inscrição</h1>
+        <h2>Vem ser Resiliente com a gente!</h2>
+        
+        <h3>Desenvolvido por Jocélia T13 &#128029;</h3>
+    </div>
+
+    <div class="formulario">
+        <img class="aluna" src="./resilia_aluno.jpg" alt=""> 
+        <form>
+            <div class="container">
+                <label for="">Nome Completo:</label> <br>
+                <input type="text" placeholder="Nome e Sobrenome">
+            </div>
+
+            <div class="container">
+                <label for="">Data de Nascimento:</label> <br>
+                <input type="date">
+            </div>
+
+            <div class="container">
+                <label for="">CPF:</label> <br>
+                <input type="text" placeholder="000.000.000-00">
+            </div>
+
+            <div class="container">
+                <label for="">E-mail:</label> <br>
+                <input type="email" placeholder="Seu melhor e-mail :)">
+            </div>
+            <div class="container">
+                <button >Enviar!</button>
+            </div>
+        </form>
+    </div>
+    <style>
+        body{
+            background-color: black;
+        }
+
+        .menu_principal{
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Roboto Mono', monospace; 
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 40px;
+        }
+        .logo{
+            margin-left: 100px;
+        }
+
+        .aluna{
+            background-color: #ddd;
+            border-radius: 100%;
+            height: 300px;
+            object-fit: cover;
+            width: 300px;  
+            margin-left: 100px;
+            justify-content: space-between;
+            box-shadow: 5px 10px 10px black;
+        }
+
+        .formulario{
+            background-color: #FAD000;
+            border-radius: 40px;
+            width: 500px; 
+            margin-left: 30%;
+        }
+
+        input{
+            border-radius: 40px; 
+        }
+        .container{
+            text-align: center;
+        }
+
+        h1, h2, h3{
+            
+            color: #FAD000;
+            margin-left: 50px;
+        }
+        h3 {
+            margin-top: 60%;
+        }
+
+        div{
+            padding-top: 30px;
+        }
+
+        button{
+            margin-bottom: 20px;
+            background-color: black;
+            color: #FAD000;
+            border: 2px solid black;
+            font-size:20px;
+            border-radius: 40px;
+        }
+
+      
+
+    </style>
+    </div>
+</body>
+
+</html>
