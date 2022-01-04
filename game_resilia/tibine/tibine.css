@@ -1,0 +1,26 @@
+body{
+    background-image: url(./fundo01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Rajdhani', sans-serif;
+}
+h1{
+    
+    width: 400px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #418998;
+    color: #DAEDF1;
+    border-radius: 50px;
+    text-align: center;
+}
+p{
+    background-color: #418998;
+    color: #DAEDF1;
+    width: 400px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+}

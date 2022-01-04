@@ -12,11 +12,12 @@ body{
     font-family: 'Dancing Script', cursive;
     font-family: 'Rajdhani', sans-serif;
 }
+
 h1{
     text-align: center;
     background-color: #050716;
     color: #61964E;
-    padding: 10px;
+    padding: px;
     
 }
 
@@ -32,8 +33,6 @@ img{
 
 img:hover{
     transform: translateX(10px) scale(1.2);
-    
-    
 }
 
 .imagem{
@@ -41,7 +40,6 @@ img:hover{
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
-    
     padding: 200px;
 }
 
