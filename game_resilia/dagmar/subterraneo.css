@@ -1,5 +1,5 @@
 body{
-    background-image: url(./dagmar_fundo.jpg);
+    background-image: url(./subterraneo.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif cursive;
@@ -11,15 +11,15 @@ h1{
     width: 400px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #DDA043;
-    color: #2A2014;
+    background-color: #B76847;
+    color: #C3C3C3;
     border-radius: 50px;
     text-align: center;
 }
 p{
-    background-color: #DDA043;
-    color: #2A2014;
-    width: 400px;
+    background-color: #B76847;
+    color: #C3C3C3;
+    width: 700px;
     border-radius: 50px;
     text-align: center;
     font-size: 20px;
@@ -35,11 +35,11 @@ button{
     font-size: 22px;
     padding: 20px;
     color: #DAEDF1;
-    background-color: #49381C;
+    background-color: #B76847;
     border-radius: 40px;
-    border: 3px solid #49381C;
+    border: 3px solid #7c4446;
 }
 button:hover{
     color: #DAEDF1;
-    background-color: #DDA043;
+    background-color: #70563F;
 } 
