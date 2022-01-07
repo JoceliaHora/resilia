@@ -55,11 +55,16 @@ h1{
     width: 400px;
     height: 180px;
 }
+.direitos, a{
+    font-size: 10px;
+    text-decoration: none;
+}
 
 footer{
     display: flex;
     justify-content: flex-end;
     color: #434E3D;
+    padding-left: 10px;
 
 }
 
