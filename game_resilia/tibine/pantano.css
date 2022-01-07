@@ -1,5 +1,5 @@
 body{
-    background-image: url(./fundo01.jpg);
+    background-image: url(./pantano.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif cursive;
@@ -19,7 +19,7 @@ h1{
 p{
     background-color: #418998;
     color: #DAEDF1;
-    width: 600px;
+    width: 400px;
     border-radius: 50px;
     text-align: center;
     font-size: 20px;

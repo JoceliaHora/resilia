@@ -1,45 +1,33 @@
 body{
-    background-image: url(./fundo01.jpg);
+    background-image: url(./oceano.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif cursive;
     font-family: 'Dancing Script', cursive;
     font-family: 'Rajdhani', sans-serif;
 }
+
 h1{
     
     width: 400px;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #418998;
+    background-color: #602145;
     color: #DAEDF1;
     border-radius: 50px;
     text-align: center;
-}
-p{
-    background-color: #418998;
-    color: #DAEDF1;
-    width: 600px;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 20px;
-}
-.fases{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
-    
 }
 button{
     margin-top: 30px;
     font-size: 22px;
     padding: 20px;
     color: #DAEDF1;
-    background-color: #7c4446;
+    background-color: #602145;
     border-radius: 40px;
-    border: 3px solid #7c4446;
+    border: 3px solid #626B58;
 }
+
 button:hover{
     color: #DAEDF1;
-    background-color: #70563F;
+    background-color: #626B58;
 } 

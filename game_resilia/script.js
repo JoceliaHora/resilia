@@ -1,13 +1,14 @@
 alert("Olá, sudito escolha uma das princesas clicando em seu nome abaixo");
 
 function oona(){
-    window.location.href="oona.html"
+    location.assign("./oona/oona.html");
 }
 
 function dagmar(){
-    window.location.href="dagmar.html"
+    location.assign("./dagmar/dagmar.html");
 }
 
-function tiabine(){
-    window.location.href="tiabine.html"
+function tibine(){
+    location.assign("./tibine/tibine.html");
 }
+
