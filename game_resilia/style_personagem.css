@@ -71,4 +71,18 @@ button:hover{
     background-color: #796797;
 }
 
+@media (min-width: 100px) and (max-width: 1200px){
+    body{
+       /*  background-color: #050716; */
+        background-image: url(./img/fundo_respo.jpg);
+       
+    }
+    .imagem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
 

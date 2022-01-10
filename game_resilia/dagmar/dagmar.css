@@ -48,3 +48,16 @@ button:hover{
     color: #DAEDF1;
     background-color: #DDA043;
 } 
+@media (min-width: 100px) and (max-width: 1200px){
+    body{
+        background-color: #050716;
+        background-image: none;
+       
+    }
+    .fases{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

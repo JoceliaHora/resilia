@@ -66,6 +66,20 @@ button:hover{
     background-color: #626B58;
 } 
 
+@media (min-width: 100px) and (max-width: 1200px){
+    body{
+        background-color: #050716;
+        background-image: none;
+       
+    }
+    .fases{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
 
 /* ul li {
     list-style: none;
