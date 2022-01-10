@@ -22,6 +22,8 @@ function faseOnna(){
     else if (fase==3){
         alert("GAME OVER - oona foi capturada pelos elfos");
         location.replace("oona_elfos.html");
+    } else{
+        alert("OPÇÃO INVALIDA! Digite 1, 2 ou 3")
     }
 }
 

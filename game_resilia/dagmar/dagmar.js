@@ -14,6 +14,8 @@ function faseDagmar(){
     else if (fase==3){
         alert("VOCÊ VENCEU! \n Dagmar abriu um portal e conseguiu chegar até a torre onde o Rei estava preso e o resgatou!");
         location.replace("portal.html");
+    } else{
+        alert("OPÇÃO INVALIDA! Digite 1, 2 ou 3")
     }
 }
 

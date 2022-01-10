@@ -14,6 +14,8 @@ function faseTibine(){
     else if (fase==3){
         alert("GAME OVER \n Tibine foi caputurada pelo feiticeiro que traiu seu pai, e jogada na cadeira");
         location.replace("terradossonhos.html");
+    }else{
+        alert("OPÇÃO INVALIDA! Digite 1, 2 ou 3")
     }
 }
 
