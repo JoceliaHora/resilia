@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pr-BR">
+    <Pmeta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Passinho do Romano</title>
+</head>
+<body>
+    <header>
+        <h1>Cifra de Cesar</h1>
+    </header>
+
+    <section>   
+         <div>
+            <label for="">Selecione o tipo de codificação:</label>
+            <select name="tipoDeCifra" id="">
+                 <option value="cesar">Cifra de Cesar</option>
+                <option value="Base64">Base64</option>
+            </select><br><br>
+            <label for="">Digite sua mensagem:</label><br>
+            <textarea name="" id="id_textarea" cols="30" rows="10"></textarea><br><br>
+
+            <label for="">Valor do deslocamento:</label><br>
+            <input type="number" name="" id="deslocamento_id"><br><br>
+            <label for="">Codificar</label>
+            <input type="radio" name="cod" id="codificador">
+            <label for="">Descodificar</label>
+            <input type="radio" name="cod" id="decodificador"><br><br> 
+            
+            <button onclick="confirma()">Confirmar</button><br>
+
+            <label for="">Resultado:</label><br>
+             <textarea name="" id="resultado_id" cols="30" rows="10"></textarea>
+         </div>
+
+    </section>
+
+    <footer>
+       Desenvolvido com ❥ por Jocélia
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
