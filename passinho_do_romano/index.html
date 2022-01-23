@@ -18,12 +18,12 @@
     <section>   
          <div>
             <label for="">Selecione o tipo de codificação:</label>
-            <select name="tipoDeCifra" id="">
+            <select id="id_select">
                  <option value="cesar">Cifra de Cesar</option>
-                <option value="Base64">Base64</option>
+                <option value="base64">Base64</option>
             </select><br><br>
             <label for="">Digite sua mensagem:</label><br>
-            <textarea name="" id="id_textarea" cols="30" rows="10"></textarea><br><br>
+            <textarea id="id_textarea" cols="30" rows="10"></textarea><br><br>
 
             <label for="">Valor do deslocamento:</label><br>
             <input type="number" name="" id="deslocamento_id"><br><br>
@@ -35,7 +35,7 @@
             <button onclick="confirma()">Confirmar</button><br>
 
             <label for="">Resultado:</label><br>
-             <textarea name="" id="resultado_id" cols="30" rows="10"></textarea>
+             <textarea nome = "" disabled id="resultado_id" cols="30" rows="10"></textarea>
          </div>
 
     </section>
