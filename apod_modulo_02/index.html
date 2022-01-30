@@ -7,19 +7,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500;700&family=Dongle&family=Rajdhani:wght@500&family=Roboto+Condensed:ital,wght@0,400;1,300&family=Roboto+Mono&family=Roboto:wght@100;400;900&family=Supermercado+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Projeto - APOD</title>
 </head>
 <body>
-  <input class="input-data" type="date" id="data">
-  <button type="submit" onclick="setApod()">Buscar</button>
+  <div class="botao">
+    <input class="input-data" type="date" id="data">
+    <button type="submit" onclick="setApod()">Buscar</button>
+  </div>
   <br>
   <h1 class="title"></h1>
-  <br>
   <h2 class="descricao_titulo">Descrição</h2>
   <p class="descricao"></p>
   <br>
   <section class="media">
-    <img class="pic" src="" alt="" width="420" height="345">
+    <img class="pic" src="" alt="" width="420" height="345" style="border-radius: 25px;">
     <iframe class="vid" src="" frameborder="0" width="420" height="345"></iframe>
 </section>
 </body>
